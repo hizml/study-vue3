@@ -29,7 +29,8 @@
       onMounted(() => {
         console.log(2333)
       })
-
+      let a = [1, 3, 4]
+      console.log(...a)
       function addItem() {
         if (option.value) {
           list.push({
