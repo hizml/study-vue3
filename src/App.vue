@@ -6,7 +6,18 @@
   <router-view/>
 </template>
 
+<script>
+  export default {
+    components: {
+    }
+  }
+</script>
+
 <style>
+body {
+  background: url("assets/bg.gif") #0a0a0a;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
